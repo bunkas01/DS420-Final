@@ -3,7 +3,7 @@
 import re
 
 
-sampler = re.compile("(201702)12.+?PC.*")
+sampler = re.compile("(201702)1[2-5].+?PC.*")
 subset = []
 with open("datadump_S5.csv", encoding="windows-1252") as file:
     for line in file:
